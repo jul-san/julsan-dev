@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Navbar from '../app/components/Navbar'
 import Script from 'next/script'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
             <Navbar/>
               {children}
             <SpeedInsights/>
+            <Analytics/>
             </div>
           </div>
           <Script src="./node_modules/preline/dist/preline.js"></Script>
