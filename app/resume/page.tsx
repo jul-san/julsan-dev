@@ -3,6 +3,10 @@ import React from 'react'
 export default function Resume() {
   return (<>
     <div> 
+      <p className='text-gray-500 text-sm'>machine learning research assistant</p>
+      <p className='pb-2'>famu-fsu college of engineering ↗</p>
+    </div>
+    <div> 
       <p className='text-gray-500 text-sm'>summer research intern</p>
       <p className='pb-2'>massachusetts institute of technology ↗</p>
     </div>
