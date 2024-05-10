@@ -19,15 +19,15 @@ export default function Blog() {
         </div>
         <div className='pb-2'>
             <p className='text-gray-500 text-sm'>october 25, 2023</p>
-            <Link href="/pics" className="hover:underline">a weekend in atlanta ↗</Link>
+            <Link href="/blog/a-weekend-in-atlanta" className="hover:underline">a weekend in atlanta ↗</Link>
         </div>
         <div className='pb-2'>
             <p className='text-gray-500 text-sm'>october 4, 2023</p>
-            <Link href="/pics" className="hover:underline">the importance of having a big ↗</Link>
+            <Link href="/blog/the-importance-of-having-a-big" className="hover:underline">the importance of having a big ↗</Link>
         </div>
         <div className='pb-2'>
             <p className='text-gray-500 text-sm'>july 23, 2023</p>
-            <Link href="/pics" className="hover:underline">evolution of my music taste ↗</Link>
+            <Link href="/blog/evolution-of-my-music-taste" className="hover:underline">evolution of my music taste ↗</Link>
         </div>
 
 

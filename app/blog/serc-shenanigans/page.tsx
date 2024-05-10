@@ -4,6 +4,8 @@ import Image from 'next/image'
 export default function Serc() {
   return (<>
         <div>
+        <p className="text-3xl pb-2"><b>SERC Shenanigans</b></p>
+
         <Image src='/image/blog/serc/kyle-nina-i-serc.jpg' alt='Dan Abramov' width={500} height={250}></Image>
                     A couple of days ago, my friends and I traveled east to Gainesville for an event called the SASE Southeast Regional Event. It's 
                     essentially the SASE National Convention but on a much smaller scale.<br/><br/>

@@ -7,6 +7,8 @@ import Link from 'next/link'
 export default function VideoGames() {
   return (<>
         <div>
+        <p className="text-3xl pb-2"><b>My Top 5 Video Game List</b></p>
+
         <Image src='/image/blog/video-games/adventure-time.png' alt='Dan Abramov' width={500} height={250}></Image>
         If you know me, then you would know that I'm a pretty big fan of video games.<br/><br/>
                     
