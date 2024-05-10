@@ -6,17 +6,17 @@ export default function Serc() {
         <div>
         <p className="text-3xl pb-2"><b>SERC Shenanigans</b></p>
 
-        <Image src='/image/blog/serc/kyle-nina-i-serc.jpg' alt='Dan Abramov' width={500} height={250}></Image>
-                    A couple of days ago, my friends and I traveled east to Gainesville for an event called the SASE Southeast Regional Event. It's 
+        <Image src='/image/blog/serc/kyle-nina-i-serc.jpg' alt='Dan Abra' width={500} height={250}></Image>
+                    A couple of days ago, my friends and I traveled east to Gainesville for an event called the SASE Southeast Regional Event. It&apos;s 
                     essentially the SASE National Convention but on a much smaller scale.<br/><br/>
 
-                    Honestly, I wasn't planning to take this event too seriously. I already had an internship lined up, and the companies hiring at the 
+                    Honestly, I wasn&apos;t planning to take this event too seriously. I already had an internship lined up, and the companies hiring at the 
                     event were not ones I was particularly interested in.<br/><br/>
 
                     The main reason I wanted to go was to meet new people outside of FSU and to have an excuse to leave Tallahassee. I also had never explored 
                     Gainesville in-depth, so I saw this as an opportunity to see what was around.<br/><br/>
 
-                    Overall, I had a great time! I got to meet lots of new people, wander around Gainesville, and bond more with my friends. So, here's a 
+                    Overall, I had a great time! I got to meet lots of new people, wander around Gainesville, and bond more with my friends. So, here&apos;s a 
                     quick rundown of our day.<br/><br/>
 
                     We left Tallahassee at about 8 AM. The event was set to start at 10, but given that Gainesville was a two-hour drive away, we were bound 
@@ -36,15 +36,15 @@ export default function Serc() {
 
                     <Image src='/image/blog/serc/kyle-shirt.jpg' alt='ceremony' width={500} height={250}></Image><br/>
 
-                    A couple minutes pass by and the workshop begins. They started talking about why it's good to work in teams. I wasn't really too interested 
-                    since it I feel like it seemed pretty obvious why it's beneficial.<br/><br/>
+                    A couple minutes pass by and the workshop begins. They started talking about why it&apos;s good to work in teams. I wasn&apos;t really too interested 
+                    since it I feel like it seemed pretty obvious why it&apos;s beneficial.<br/><br/>
 
                     There was an activity where we had to look at a slideshow with lots of items and try to remember them. After that, we got together 
                     with others to see how many more items we could remember as a group.<br/><br/>
 
                     Right before we left for lunch, we found a huge chess board at the union and decided to play a quick game.<br/><br/>
 
-                    A guy from the University of South Florida came up and watched us for a bit. When we asked, he said he was rated 2000 in chess, which means he's better 
+                    A guy from the University of South Florida came up and watched us for a bit. When we asked, he said he was rated 2000 in chess, which means he&apos;s better 
                     than 95% of players, so it was pretty cool to meet someone that good.<br/><br/>
 
                     <Image src='/image/blog/serc/playing-chess.jpg' alt='ceremony' width={500} height={250}></Image><br/>
@@ -54,7 +54,7 @@ export default function Serc() {
                     A funny moment happened while we were stopped at a red light next to a Maserati. My friend thought it would be funny to stare at the 
                     driver, so he rolled down the window and just looked at them for the next 10-15 seconds. As soon as the light turned green, we zoomed right off.<br/><br/>
 
-                    We eventually arrived at Yummy House. I would say overall that it's a pretty standard dim sum restaurant. The food was good and there were a 
+                    We eventually arrived at Yummy House. I would say overall that it&apos;s a pretty standard dim sum restaurant. The food was good and there were a 
                     lot of options to choose from. On a scale of 1 to 10, I would give it a 7.<br/><br/>
 
                     <Image src='/image/blog/serc/dimsum.jpg' alt='ceremony' width={500} height={250}></Image><br/>
@@ -70,8 +70,8 @@ export default function Serc() {
                     Embry-Riddle Aeronautical University. It started as your typical conversation with a college student where we asked what year of college we 
                     were in and what we were majoring in.<br/><br/>
 
-                    At some point in our conversation, I asked him about his ethnicity, and he told me he was Filipino. I don't know why this thought popped up, 
-                    but when he told me that, I responded by saying, "Let's go start a Filipino army."<br/><br/>
+                    At some point in our conversation, I asked him about his ethnicity, and he told me he was Filipino. I don&apos;t know why this thought popped up, 
+                    but when he told me that, I responded by saying, &quot;Let&apos;s go start a Filipino army.&quot;<br/><br/>
 
                     He told me to follow him to his other friends from ERAU. They also happened to be Filipino, so we began talking about where our family is from 
                     and funny stories from when we were younger.<br/><br/>
@@ -83,8 +83,8 @@ export default function Serc() {
                     After the networking session wrapped up, it was time for another workshop. We started heading into one of the smaller rooms for it, but we 
                     decided to go bowling instead. So, we ditched the workshop and headed straight to the bottom floor to go bowling instead.<br/><br/>
 
-                    Let's just say that I'm not exactly a pro when it comes to bowling. To be more direct, my bowling skills are entirely atrocious. I was behind 
-                    my other two friends by more than double the amount of their points. I forgot the endgame scores exactly, but I'll list three scores, and 
+                    Let&apos;s just say that I&apos;m not exactly a pro when it comes to bowling. To be more direct, my bowling skills are entirely atrocious. I was behind 
+                    my other two friends by more than double the amount of their points. I forgot the endgame scores exactly, but I&apos;ll list three scores, and 
                     you can guess which was mine.<br/><br/>
 
                     <b>Score 1:</b> 45<br/>
@@ -92,7 +92,7 @@ export default function Serc() {
                     <b>Score 3:</b> 120<br/><br/>
 
                     Nothing too interesting happened during the ceremony. It was mainly the coordinators thanking us for coming and discussing what we should 
-                    look forward to soon. They hosted a raffle with prizes such as a Lego set, a mechanical keyboard, and a speaker, but we weren't lucky enough 
+                    look forward to soon. They hosted a raffle with prizes such as a Lego set, a mechanical keyboard, and a speaker, but we weren&apos;t lucky enough 
                     to win anything, so we walked out empty-handed..<br/><br/>
 
                     Now, it was time for the main event, the career fair..<br/><br/>
@@ -102,7 +102,7 @@ export default function Serc() {
 
                     Instead, I started roaming around with a plate of brownies and began offering a piece to the waiting people in line.<br/><br/>
 
-                    A funny thing that we saw was seeing someone dressed up as the Charmin Bear right by the P&G table. We couldn't pass up the chance 
+                    A funny thing that we saw was seeing someone dressed up as the Charmin Bear right by the P&G table. We couldn&apos;t pass up the chance 
                     for a photo with the bear.<br/><br/>
 
                     <Image src='/image/blog/serc/charmin-bear.jpg' alt='ceremony' width={500} height={250}></Image><br/>
@@ -111,13 +111,13 @@ export default function Serc() {
                     bit and grab dinner.<br/><br/>
 
                     Having never thoroughly explored the area around UF, it was enjoyable to walk around the place at night and see what types of restaurants, 
-                    stores, and bars were around. We stopped by an album store, the first time I'd ever gone to one.<br/><br/>
+                    stores, and bars were around. We stopped by an album store, the first time I&apos;d ever gone to one.<br/><br/>
 
                     After walking around for about an hour, we settled on having dinner at Bagels & Noodles, about a 5-minute drive from where we were. The 
                     three of us ordered the same thing: pho dac biet.<br/><br/>
 
                     While waiting, one of my friends and I discussed our spice tolerance and whether or not we could handle sriracha. To follow this, we each 
-                    took turns squeezing sriracha sauce in our mouths, where each time, we increased the amount until one of us couldn't stand the heat. It was 
+                    took turns squeezing sriracha sauce in our mouths, where each time, we increased the amount until one of us couldn&apos;t stand the heat. It was 
                     a game of chicken.<br/><br/>
 
                     Our food eventually arrived, and it was delicious overall! On a scale from 1-10, I would rate it as a seven or an eight. Of course, before 
@@ -128,9 +128,9 @@ export default function Serc() {
                     We returned to the car shortly after eating and began the two-hour drive back to Tallahassee.<br/><br/>
 
                     Overall, I had lots and lots of fun going to the event. Although we were goofing around the whole time, I had much fun with my friends 
-                    and getting to know them a little more, especially since they'll graduate soon.<br/><br/>
+                    and getting to know them a little more, especially since they&apos;ll graduate soon.<br/><br/>
 
-                    I'm looking forward to next year's regional event!<br/><br/>
+                    I&apos;m looking forward to next year&apos;s regional event!<br/><br/>
 
                     Thanks for reading! :)<br/><br/>
         </div>

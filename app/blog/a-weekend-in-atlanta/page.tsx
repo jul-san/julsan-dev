@@ -6,7 +6,7 @@ export default function AWeekendInAtlanta() {
         <div>
         <p className="text-3xl pb-2"><b>A Weekend In Atlanta</b></p>
 
-                <Image src='/image/blog/atlanta/group-photobooth.jpg' alt='Dan Abramov' width={600} height={250}></Image>
+                <Image src='/image/blog/atlanta/group-photobooth.jpg' alt='Dan Abra' width={600} height={250}></Image>
 
                 A little under a week has gone by since I traveled to Atlanta to attend the SASE National Convention, a multi-day event where numerous companies 
                 come together to set up networking events, workshops, and potentially hire attendees for internships or full-time positions.<br/><br/>
@@ -23,14 +23,14 @@ export default function AWeekendInAtlanta() {
 
                 <p className="text-lg"> <b>The Drive Up</b></p><br/>
 
-                The drive up to Atlanta from Tallahassee is about four hours, so it's safe to say that there would have inevitably been some interesting moments 
+                The drive up to Atlanta from Tallahassee is about four hours, so it&apos;s safe to say that there would have inevitably been some interesting moments 
                 along the way.<br/><br/>
 
                 I vividly remember at the beginning of our ride, the people I was driving with requested that I set the volume of the radio to the max and queue
                 a ton of nostalgic 2010s songs by artists such as Bruno Mars, Rihanna, Taylor Swift, Katy Perry, etc.<br/><br/>
 
                 After an hour or so, the energy eventually died down and we switched back to my Spotify playlist, which consisted mainly of rap and R&B. There 
-                were the occasional K-pop songs and house music thrown in there, but for the most part, I didn't have anything too hyper.<br/><br/>
+                were the occasional K-pop songs and house music thrown in there, but for the most part, I didn&apos;t have anything too hyper.<br/><br/>
 
                 Of course, when my playlist was on, everybody fell asleep, so I was on my own for a bit.<br/><br/>
 
@@ -50,9 +50,9 @@ export default function AWeekendInAtlanta() {
                 <p className="text-lg"> <b>Pre-Convention</b></p><br/>
 
                 The first day of the convention mostly consisted of networking panels and workshops. It gave people an opportunity to reach out to recruiters, 
-                learn about a company's culture, or improve on certain soft skills.<br/><br/>
+                learn about a company&apos;s culture, or improve on certain soft skills.<br/><br/>
 
-                This was an all-day event, so we didn't necessarily have to be there the whole time, but it was a great chance to meet a lot of new people.<br/><br/>
+                This was an all-day event, so we didn&apos;t necessarily have to be there the whole time, but it was a great chance to meet a lot of new people.<br/><br/>
 
                 My group was the first to arrive, and the first thing we did when we walked in was collect our name tags and go straight to the opening ceremony.<br/><br/>
 
@@ -63,8 +63,8 @@ export default function AWeekendInAtlanta() {
                 I would say the funniest thing about this was watching the number of students from UF who walked on the stage after receiving an award and comparing 
                 it to the number from other schools who won a different award. There were easily 100+ students from UF, while other schools maybe had 20-30 at most.<br/><br/>
 
-                My group hadn't eaten breakfast at the time, so after watching the ceremony, we walked across the street to the CNN Center to grab Chick-fil-A. To 
-                be honest, we were a bit lost since we didn't know the street we had to cross to get to the CNN Center, but we eventually found our way and ordered 
+                My group hadn&apos;t eaten breakfast at the time, so after watching the ceremony, we walked across the street to the CNN Center to grab Chick-fil-A. To 
+                be honest, we were a bit lost since we didn&apos;t know the street we had to cross to get to the CNN Center, but we eventually found our way and ordered 
                 food.<br/><br/>
 
                 While there, we were able to meet up with a few more of our members. We all had Chick-fil-A together and just started talking about the event and our 
@@ -100,23 +100,23 @@ export default function AWeekendInAtlanta() {
                 I started cracking a few jokes with him about defense companies but made it clear that I did not enjoy my last internship, so I was really trying 
                 to work for a different company.<br/><br/>
 
-                We didn't notice at the time, but there was a lady standing right behind us. It became clear that she was listening in on our conversation when 
-                she asked, 'So, are you guys fans of defense companies?' She looked fairly young, so I assumed she was a college student.<br/><br/>
+                We didn&apos;t notice at the time, but there was a lady standing right behind us. It became clear that she was listening in on our conversation when 
+                she asked, &apos;So, are you guys fans of defense companies?&apos; She looked fairly young, so I assumed she was a college student.<br/><br/>
 
                 From this point on, this is how our conversation went:<br/><br/>
 
-                <i>'Uhh, not really. I had a pretty bad time over the summer working at a defense company. I just think that the work environment was boring and I 
-                felt like a zombie since I was sitting in front of a computer all day. Oh, by the way, what school do you go to?'</i><br/><br/>
+                <i>&apos;Uhh, not really. I had a pretty bad time over the summer working at a defense company. I just think that the work environment was boring and I 
+                felt like a zombie since I was sitting in front of a computer all day. Oh, by the way, what school do you go to?&apos;</i><br/><br/>
 
-                <i>'Oh, I'm not actually a student. I'm a recruiter for MIT.'</i><br/><br/>
+                <i>&apos;Oh, I&apos;m not actually a student. I&apos;m a recruiter for MIT.&apos;</i><br/><br/>
 
-                Yeah, I couldn't believe it either.
+                Yeah, I couldn&apos;t believe it either.
 
                 My friend and I literally freaked out right in front of her. We were both talking trash about working in defense, and a recruiter basically overheard 
                 everything we were saying. In my mind, I figured the chance of getting an offer was down to zero percent.<br/><br/>
 
-                However, she seemed very nice, and she actually started asking me about my past internship and dug a bit deeper as to why I didn't have a good time. 
-                She also started asking me if there were any specific roles I was looking for. I told her that, because I'm still early in my undergrad, I was open to 
+                However, she seemed very nice, and she actually started asking me about my past internship and dug a bit deeper as to why I didn&apos;t have a good time. 
+                She also started asking me if there were any specific roles I was looking for. I told her that, because I&apos;m still early in my undergrad, I was open to 
                 exploring positions outside of software engineering. After a bit, she offered me an interview.<br/><br/>
 
                 I was trying my hardest not to freak out. This was so spontaneous and unexpected. No way in a million years would I have thought that I had a chance to go to 
@@ -130,10 +130,10 @@ export default function AWeekendInAtlanta() {
                 After settling down, the interview started, and it would be an understatement to say that I was nervous. My heart was beating rapidly in the first few minutes, 
                 but it eventually started to slow down.<br/><br/>
 
-                The questions she asked me were your average behavioral interview questions, such as 'Tell me about yourself' and 'Tell me about a time where you had to work 
-                with someone difficult.'<br/><br/>
+                The questions she asked me were your average behavioral interview questions, such as &apos;Tell me about yourself&apos; and &apos;Tell me about a time where you had to work 
+                with someone difficult.&apos;<br/><br/>
 
-                Because of our conversation prior to the interview, I felt very comfortable talking to her, and I didn't feel as nervous as I did before the interview 
+                Because of our conversation prior to the interview, I felt very comfortable talking to her, and I didn&apos;t feel as nervous as I did before the interview 
                 started. It honestly felt like I was having a conversation with one of my friends, so I was confident that I did well.<br/><br/>
 
                 It turns out, I actually did very well in the interview!<br/><br/>
@@ -159,7 +159,7 @@ export default function AWeekendInAtlanta() {
                 On the lowest level of the building, the convention volunteers set up three tables with a ton of 
                 Asian snacks, which included Pocky, shrimp chips, seaweed chips, and more. They were also serving tea and coffee.<br/><br/>
 
-                Apparently, you were only supposed to grab one item since there were so many people, but I didn't know that until one of my friends pointed it out to me. However, I 
+                Apparently, you were only supposed to grab one item since there were so many people, but I didn&apos;t know that until one of my friends pointed it out to me. However, I 
                 had already grabbed at least three bags of food, so personally, I felt like there was no point in going back.<br/><br/>
 
                 <Image src='/image/blog/atlanta/snack-time-sase.jpg' alt='ceremony' width={600} height={250}></Image><br/>
@@ -182,14 +182,14 @@ export default function AWeekendInAtlanta() {
                 conversation with the recruiters who were tabling.<br/><br/>
 
                 This was a big deal because it is well-known across the community that getting an interview or offer from the career fair is considerably easier 
-                than going to your school's career fair, so it was important to go in prepared and talk to as many companies as possible.<br/><br/>
+                than going to your school&apos;s career fair, so it was important to go in prepared and talk to as many companies as possible.<br/><br/>
 
                 Most of us arrived at the event on time, and it was important to be there for as long as possible since it was only lasting four hours.<br/><br/>
 
                 After we all went through the main entrance of the career fair, we all split up to talk to the companies that we wanted to.<br/><br/>
 
-                Personally, I can't remember exactly how many companies I talked to, but I know that it was at least 10. For me, when it comes to career fairs, I try to 
-                'shotgun' and talk to as many people as possible rather than talking to only a handful, to increase my chances of landing an interview offer.<br/><br/>
+                Personally, I can&apos;t remember exactly how many companies I talked to, but I know that it was at least 10. For me, when it comes to career fairs, I try to 
+                &apos;shotgun&apos; and talk to as many people as possible rather than talking to only a handful, to increase my chances of landing an interview offer.<br/><br/>
 
                 Even though there were a ton of companies to talk to, what made the career fair a bit boring was waiting in the long lines for 10+ minutes just to have 
                 maybe a 1- or 2-minute conversation with the recruiter.<br/><br/>
@@ -198,10 +198,10 @@ export default function AWeekendInAtlanta() {
                 was because there was a word going around that it was really easy to get an offer from them, so I thought that I might as well wait for as long as possible.<br/><br/>
 
                 While I was waiting in line for L3Harris, there was a girl behind me who tapped me on the shoulder and asked if the line I was standing in was for 
-                computer science students. I told her that I wasn't really sure and I kind of just picked a random line to stand in.<br/><br/>
+                computer science students. I told her that I wasn&apos;t really sure and I kind of just picked a random line to stand in.<br/><br/>
 
-                She then saw my name tag and noticed that I went to FSU and told me that she had a friend who went there, to which I asked her what her friend's 
-                name was. After telling me her friend's name and talking about her for a bit, we eventually realized that we actually went to the same high school together.<br/><br/>
+                She then saw my name tag and noticed that I went to FSU and told me that she had a friend who went there, to which I asked her what her friend&apos;s 
+                name was. After telling me her friend&apos;s name and talking about her for a bit, we eventually realized that we actually went to the same high school together.<br/><br/>
 
                 In the moment, I just thought it was so crazy to have met someone who went to the same high school as me two years after graduation. I later asked if 
                 I could take a selfie with her and sent it to our friend that she had mentioned previously.<br/><br/>
@@ -211,7 +211,7 @@ export default function AWeekendInAtlanta() {
 
                 However, after talking to her for a bit, she actually ended up giving me an offer to work as a software engineer intern in Salt Lake City!<br/><br/>
 
-                Hearing this gave me so much relief because now I don't have to worry about not having a job for this upcoming summer. I can essentially go 
+                Hearing this gave me so much relief because now I don&apos;t have to worry about not having a job for this upcoming summer. I can essentially go 
                 through my second year of college without having to stress about not getting any internships.<br/><br/>
 
                 In celebration, I was able to ring the gong that was in the center of the room. SASE has it so that if a person receives a job offer from any of the companies, 
@@ -232,7 +232,7 @@ export default function AWeekendInAtlanta() {
 
                 An hour or so passed by, and the career fair officially ended.
 
-                To be honest, I think getting an offer was a little bit harder compared to last year due to the fact that there were so many more people than last year. It's 
+                To be honest, I think getting an offer was a little bit harder compared to last year due to the fact that there were so many more people than last year. It&apos;s 
                 probable that word had spread around that getting an offer was incredibly easy, so more people attended.<br/><br/>
 
                 For me, I had a decent amount of fun at the career fair, although there were plenty of times when I felt like I was just standing around for way too long and often thought 
@@ -245,7 +245,7 @@ export default function AWeekendInAtlanta() {
                 We had made plans to go to H Mart to grab dinner there, so we all drove in our groups over to the supermarket.<br/><br/>
 
                 Whenever I go to Atlanta, I always make plans to at least visit one H Mart, so I was really glad to hear that everyone in our group wanted to go. 
-                This is mainly because Tallahassee doesn't have any large Asian supermarkets, so this would be a chance for me to buy something and bring it back to my apartment if I 
+                This is mainly because Tallahassee doesn&apos;t have any large Asian supermarkets, so this would be a chance for me to buy something and bring it back to my apartment if I 
                 saw anything I liked.<br/><br/>
 
                 Once we arrived at H Mart, we walked around the store for a bit, then all came together in the food area to eat together. There were a lot of options to choose 
@@ -281,14 +281,14 @@ export default function AWeekendInAtlanta() {
 
                 Alongside that, I really enjoyed meeting new people who went on the trip and getting a bit closer to those I was already friends with before going on the trip.<br/><br/>
 
-                Compared to last year, however, I will say that it wasn't as fun mostly because I have gone through a lot of the same experiences, so I didn't get the 'first time' 
-                feeling, but that's not to take away from my enjoyment of the trip.<br/><br/>
+                Compared to last year, however, I will say that it wasn&apos;t as fun mostly because I have gone through a lot of the same experiences, so I didn&apos;t get the &apos;first time&apos; 
+                feeling, but that&apos;s not to take away from my enjoyment of the trip.<br/><br/>
 
-                If you're reading this and are interested in going, I highly recommend it if you're looking to explore places outside of Tallahassee and are looking to potentially 
+                If you&apos;re reading this and are interested in going, I highly recommend it if you&apos;re looking to explore places outside of Tallahassee and are looking to potentially 
                 land a job offer. I will say, though, the companies tend to appeal more to those who major in computer science, computer engineering, mechanical engineering, and 
                 anything related to that.<br/><br/>
 
-                Other than that, if you made it this far, thanks for reading my super long blog post. I had so much to talk about, and I'll try to not make my future posts as long.<br/><br/>
+                Other than that, if you made it this far, thanks for reading my super long blog post. I had so much to talk about, and I&apos;ll try to not make my future posts as long.<br/><br/>
 
                 Looking forward to next year! :)<br/><br/>
 

@@ -9,27 +9,27 @@ export default function VideoGames() {
         <div>
         <p className="text-3xl pb-2"><b>My Top 5 Video Game List</b></p>
 
-        <Image src='/image/blog/video-games/adventure-time.png' alt='Dan Abramov' width={500} height={250}></Image>
-        If you know me, then you would know that I'm a pretty big fan of video games.<br/><br/>
+        <Image src='/image/blog/video-games/adventure-time.png' alt='Dan Abra' width={500} height={250}></Image>
+        If you know me, then you would know that I&apos;m a pretty big fan of video games.<br/><br/>
                     
                     I started playing when I was around seven or eight years old, with my first exposure 
                     being a Nintendo 3DS that I had been given as a gift for my birthday.<br/><br/>
                     
-                    The first video game that I ever played on it was Super Mario 64. It's honestly hard for me to put into words 
+                    The first video game that I ever played on it was Super Mario 64. It&apos;s honestly hard for me to put into words 
                     how much I loved playing this game growing up. I remember taking my 3DS on car rides from West Palm Beach to Orlando 
                     and playing it, which kept me up the whole way through.<br/><br/>
                     
-                    Now that the years have gone by, I've gone through a good amount of gaming systems. In particular, I went from the Nintendo 
+                    Now that the years have gone by, I&apos;ve gone through a good amount of gaming systems. In particular, I went from the Nintendo 
                     3DS to the Wii, from the Wii to the Xbox 360, from the Xbox 360 to the Xbox One, and finally from the Xbox One to the PC.<br/><br/>
                     
-                    Throughout that span of years, I've gone through hundreds of video games, many of which I spent numerous hours 
+                    Throughout that span of years, I&apos;ve gone through hundreds of video games, many of which I spent numerous hours 
                     playing, ranging from one hour to over a thousand hours (crazy, I know).<br/><br/>
                     
                     With that being said, I wanted to take the time to write about the games that stood out to me throughout the years 
                     and the ones that I hold dearly to me.<br/><br/>
 
                     <p className="text-lg"> <b>5. Wii Sports Resort</b></p>
-                    <Image src='/image/blog/video-games/wii-sports.jpeg' alt='Dan Abramov' width={500} height={250}></Image>
+                    <Image src='/image/blog/video-games/wii-sports.jpeg' alt='Dan Abra' width={500} height={250}></Image>
 
                     When I transitioned from the Nintendo 3DS to the Wii, the first game that I ever played on it was Wii Sports Resort.<br/><br/>
                     
@@ -40,7 +40,7 @@ export default function VideoGames() {
                     
                     The simple answer to that is its replay value.<br/><br/>
                     
-                    What I didn't mention earlier was that the reason why I played Super Mario 64 for so long was that it took me forever to 
+                    What I didn&apos;t mention earlier was that the reason why I played Super Mario 64 for so long was that it took me forever to 
                     beat the game. Although I had tons of fun throughout the countless hours I put into it, after I saved Princess Peach 
                     from being trapped behind a painting, I pretty much stored the game card away, never to be seen again.<br/><br/>
 
@@ -48,7 +48,7 @@ export default function VideoGames() {
                     objective was the same and the duration of each game was probably no more than ten minutes, I would always find myself 
                     having a different experience with each of the matches that I played, which is why it was so enjoyable.<br/><br/>
 
-                    If you're wondering what my favorite game mode is, then that would easily go to table tennis. I played it so much that I 
+                    If you&apos;re wondering what my favorite game mode is, then that would easily go to table tennis. I played it so much that I 
                     unlocked the flip-flop as a paddle (if you know, you know). Behind that would have to be swordplay and basketball.<br/><br/>
 
                     There was another game mode where you could freely roam the island with a plane, which gave the player the opportunity to 
@@ -59,22 +59,22 @@ export default function VideoGames() {
                     devoted a good amount of hours to, and it is the game that introduced me to the Wii console.<br/><br/>
 
                     <p className="text-lg"> <b>4. Stardew Valley</b></p>
-                    <Image src='/image/blog/video-games/stardew-valley.jpeg' alt='Dan Abramov' width={500} height={250}></Image>
+                    <Image src='/image/blog/video-games/stardew-valley.jpeg' alt='Dan Abra' width={500} height={250}></Image>
 
-                    I'm normally not a big fan of 2D pixelated games, so having Stardew Valley rank so high on my list is somewhat of a surprise to myself. 
+                    I&apos;m normally not a big fan of 2D pixelated games, so having Stardew Valley rank so high on my list is somewhat of a surprise to myself. 
                     However, what made this game so enjoyable for me is the depth of its story and the ability to craft your own play style as the game 
                     progresses.<br/><br/>
 
                     The game starts off with a cutscene presenting your grandfather, who appears to be lying sick in bed. He hands the player an envelope, 
-                    but he tells you not to open it at that moment. Instead, he wants you to open it when you feel 'crushed by the burden of life.'<br/><br/>
+                    but he tells you not to open it at that moment. Instead, he wants you to open it when you feel &apos;crushed by the burden of life.&apos;<br/><br/>
 
                     Fast forward to a later point in time, you find yourself in a cutscene where the player is sitting in a cubicle, working a stereotypical 
                     9-to-5 job, typing away at a computer, and responding to customer questions and concerns on a landline telephone.<br/><br/>
 
                     They then proceed to open one of the drawers in their desk, and inside is the envelope their grandfather had given them. 
-                    Given the state the player is in now, they feel it's time to unveil the contents of the envelope.<br/><br/>
+                    Given the state the player is in now, they feel it&apos;s time to unveil the contents of the envelope.<br/><br/>
 
-                    Inside is a letter telling the player that they have inherited their grandfather's farmland in an area called Stardew Valley. After 
+                    Inside is a letter telling the player that they have inherited their grandfather&apos;s farmland in an area called Stardew Valley. After 
                     reading this, the player packs all their belongings and takes a bus ride to the farmland.<br/><br/>
 
                     From this point forward, the player is essentially tasked with cultivating their farmland and meeting the people in Pelican Town, 
@@ -87,26 +87,26 @@ export default function VideoGames() {
                     mines to reach a deeper level and scavenge for better loot. Additionally, the relationship system in the game facilitates the role-playing 
                     aspect, acting as somewhat of a side quest for the player to partake in.<br/><br/>
 
-                    Of course, there is so much more about the game that I could talk about, but throughout the hundreds of hours I've put into it, I can easily 
+                    Of course, there is so much more about the game that I could talk about, but throughout the hundreds of hours I&apos;ve put into it, I can easily 
                     say that this is one of the most enjoyable games I have ever played.<br/><br/>
 
-                    I will say, though, that this game is tailored to those who are into the casual gaming experience, but if you're willing to try out a game 
-                    that doesn't involve any sort of competitive aspect, Stardew Valley is without a doubt the first game I would recommend.<br/><br/>
+                    I will say, though, that this game is tailored to those who are into the casual gaming experience, but if you&apos;re willing to try out a game 
+                    that doesn&apos;t involve any sort of competitive aspect, Stardew Valley is without a doubt the first game I would recommend.<br/><br/>
 
                     <p className="text-lg"> <b>3. Fallout 4</b></p>
-                    <Image src='/image/blog/video-games/fallout-4.jpeg' alt='Dan Abramov' width={500} height={250}></Image>
+                    <Image src='/image/blog/video-games/fallout-4.jpeg' alt='Dan Abra' width={500} height={250}></Image>
     
                     The first role-playing game that I ever played, Fallout 4, is one of the greatest games I have ever experienced.<br/><br/>
 
                     Now, if you ask a die-hard Fallout fan about the best game in the series, they would probably go with Fallout: New Vegas.<br/><br/>
 
-                    Objectively, they are probably correct. New Vegas is widely praised by many critics as one of the greatest RPGs of all time, and I won't lie, 
+                    Objectively, they are probably correct. New Vegas is widely praised by many critics as one of the greatest RPGs of all time, and I won&apos;t lie, 
                     I also have to agree.<br/><br/>
 
                     So why did I prefer Fallout 4 over New Vegas? To be quite frank, I fell in love with the settlement system and the relationships you can build 
                     that Bethesda had set in place.<br/><br/>
 
-                    If you're unfamiliar with the Fallout series, it essentially revolves around a nuclear war between the United States and China. A company 
+                    If you&apos;re unfamiliar with the Fallout series, it essentially revolves around a nuclear war between the United States and China. A company 
                     known as Vault-Tec constructed underground vaults across the country for people to reside in during the war.<br/><br/>
 
                     In each of the Fallout games, you play as a survivor from one of these vaults, exploring the wasteland and discovering the entirely new 
@@ -134,12 +134,12 @@ export default function VideoGames() {
                     best if you were to experience the game firsthand.<br/><br/>
 
                     <p className="text-lg"> <b>2. Overwatch</b></p>
-                    <Image src='/image/blog/video-games/ow.jpeg' alt='Dan Abramov' width={500} height={250}></Image>
+                    <Image src='/image/blog/video-games/ow.jpeg' alt='Dan Abra' width={500} height={250}></Image>
 
-                    For the people who know me in person, it's probably become a meme at this point that I'm a pretty big advocate for Overwatch.<br/><br/>
+                    For the people who know me in person, it&apos;s probably become a meme at this point that I&apos;m a pretty big advocate for Overwatch.<br/><br/>
 
-                    I've been playing ever since the beta first came out around 2015, and my in-game playtime is well over a thousand hours. I was even on my 
-                    university's Overwatch e-sports team for a bit (I swear, I have a life).<br/><br/>
+                    I&apos;ve been playing ever since the beta first came out around 2015, and my in-game playtime is well over a thousand hours. I was even on my 
+                    university&apos;s Overwatch e-sports team for a bit (I swear, I have a life).<br/><br/>
 
                     I think what made Overwatch so appealing to me was its competitive nature, especially the urge to rise up the ranks throughout each season. 
                     What set this apart from other games with ranked modes, like Valorant and Rainbow Six Siege, was the sheer amount of action in each team fight.<br/><br/>
@@ -152,51 +152,51 @@ export default function VideoGames() {
 
                     As I am writing this and reflecting on my past matches in Overwatch, I truly miss the laughs this game has given me. While there are, of course, 
                     plenty of frustrating moments, as is the nature of a competitive game, I often think back to the times where playing this game helped me to destress. 
-                    The feeling of hopping on with a group of friends to play ranked at eight o'clock at night and playing past midnight is something that I will 
+                    The feeling of hopping on with a group of friends to play ranked at eight o&apos;clock at night and playing past midnight is something that I will 
                     miss as I continue to get older.<br/><br/>
 
                     It somewhat hurts to see Overwatch 2 being one of the worst-rated games on Steam, even though it may be warranted, but no matter how much the 
                     game goes downhill, I will always revisit it occasionally.<br/><br/>
 
-                    Recently, I haven't had as much time to play due to the insane course load I took on this past Fall semester, but hopefully, I can slowly get 
-                    back into it next semester. Trust me, I've been dying to get back into it.<br/><br/>
+                    Recently, I haven&apos;t had as much time to play due to the insane course load I took on this past Fall semester, but hopefully, I can slowly get 
+                    back into it next semester. Trust me, I&apos;ve been dying to get back into it.<br/><br/>
 
-                    I think for most people who are into gaming, there will always be that one multiplayer competitive game they'll put countless hours into playing 
+                    I think for most people who are into gaming, there will always be that one multiplayer competitive game they&apos;ll put countless hours into playing 
                     in order to improve and rise up the elo ladder. For me, that game just happened to be Overwatch.<br/><br/>
 
                     <p className="text-lg"> <b>1. Minecraft</b></p>
-                    <Image src='/image/blog/video-games/minecraft.jpeg' alt='Dan Abramov' width={500} height={250}></Image>
+                    <Image src='/image/blog/video-games/minecraft.jpeg' alt='Dan Abra' width={500} height={250}></Image>
 
-                    So, we've reached the end and to no one's surprise, Minecraft trumps all.<br/><br/>
+                    So, we&apos;ve reached the end and to no one&apos;s surprise, Minecraft trumps all.<br/><br/>
 
-                    I've grown up watching Minecraft YouTubers such as SkyDoesMinecraft, SSundee, BajanCanadian, PopularMMOs, etc., so it's no surprise that 
-                    Minecraft would have such a large influence on my life, not just for its nostalgia but also for the friends that I've been able to make 
+                    I&apos;ve grown up watching Minecraft YouTubers such as SkyDoesMinecraft, SSundee, BajanCanadian, PopularMMOs, etc., so it&apos;s no surprise that 
+                    Minecraft would have such a large influence on my life, not just for its nostalgia but also for the friends that I&apos;ve been able to make 
                     throughout the years.<br/><br/>
 
-                    Nowadays, I've pretty much reached a point in Minecraft where I'll leave it untouched for several months at a time until one of my friends 
-                    decides to start up a server that we'll play on for two weeks straight, then never touch again.<br/><br/>
+                    Nowadays, I&apos;ve pretty much reached a point in Minecraft where I&apos;ll leave it untouched for several months at a time until one of my friends 
+                    decides to start up a server that we&apos;ll play on for two weeks straight, then never touch again.<br/><br/>
 
                     The last time that happened was actually this past summer, and I was able to meet a couple of new people that I really enjoyed talking to. 
-                    Even though I'll probably never talk to them again, because the Minecraft server is basically dead, this goes to show how Minecraft allows you 
+                    Even though I&apos;ll probably never talk to them again, because the Minecraft server is basically dead, this goes to show how Minecraft allows you 
                     to create plenty of enjoyable memories that you can look back on every now and then.<br/><br/>
 
-                    I remember the first ever large-scale project that I had built was NASA's Space Shuttle Challenger. Being a little kid at the time, it obviously 
-                    wasn't a one-to-one replica, but what made it pretty unique was that I included a TNT launcher inside, which would launch the player hundreds of 
+                    I remember the first ever large-scale project that I had built was NASA&apos;s Space Shuttle Challenger. Being a little kid at the time, it obviously 
+                    wasn&apos;t a one-to-one replica, but what made it pretty unique was that I included a TNT launcher inside, which would launch the player hundreds of 
                     blocks into the air. I was so happy with the results that I showed it to my mom, who applauded me, but probably had no idea what I was doing.<br/><br/>
 
                     To those who somehow have never touched this game, Minecraft is a survival game where you basically do whatever you want. You can build houses, 
                     go mining to get better gear, go fishing, explore, and much more. The ultimate goal of the game is to kill the Ender Dragon, but the game goes on 
                     even after killing it. Minecraft caters to multiple gaming styles, so you truly do have the freedom to do whatever you want.<br/><br/>
 
-                    I don't want to keep this part too long because if you were born before the year 2010, then it would be pretty understandable as to why Minecraft 
+                    I don&apos;t want to keep this part too long because if you were born before the year 2010, then it would be pretty understandable as to why Minecraft 
                     is number one on my list.<br/><br/>
 
                     <p className="text-lg"> <b>Final Remarks</b></p>
-                    Looking back on all the years that I've been playing video games, it's quite easy to say that they have had a pretty big impact on my life. They've 
+                    Looking back on all the years that I&apos;ve been playing video games, it&apos;s quite easy to say that they have had a pretty big impact on my life. They&apos;ve 
                     helped me make friends, both online and in-person, and figure out at a young age what my potential interests were for a career in the future. The reason 
                     why I am pursuing a career in tech is because of video games.<br/><br/>
 
-                    If you're reading this and have never played video games, I would definitely give it a shot. You never know, you may meet some people you might 
+                    If you&apos;re reading this and have never played video games, I would definitely give it a shot. You never know, you may meet some people you might 
                     unexpectedly get close with.<br/><br/>
 
                     Do NOT play League of Legends.<br/><br/>
