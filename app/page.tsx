@@ -5,9 +5,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>   
-        <p className="text-left">about: 19, tallahassee, senior at florida state</p><br/>
-        <p className="text-left">interests: systems software, intelligent machines, and human-computer interaction</p><br/>
-        <p className="text-left">other facts: raised in south florida, filipino-american, mediocre at chess, heat fan, loves to cook (and eat)</p><br/>
+        <p className="text-left">about: 19, west palm beach, senior at florida state</p><br/>
+        <p className="text-left">interests: understanding social and personality psychology to enhance human-computer interaction</p><br/>
+        <p className="text-left">other facts: steve lacy fan, filipino-american, mediocre at chess, loves to cook (and eat)</p><br/>
         <p className="text-left">
           <Link href="https://www.instagram.com/julianwsanchez/" className="underline">instagram</Link>•
           <Link href="https://www.linkedin.com/in/jul-san/" className="underline">linkedin</Link>•

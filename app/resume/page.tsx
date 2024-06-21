@@ -3,19 +3,15 @@ import React from 'react'
 export default function Resume() {
   return (<>
     <div> 
-      <p className='text-gray-500 text-sm'>machine learning research assistant</p>
-      <p className='pb-2'>famu-fsu college of engineering</p>
-    </div>
-    <div> 
       <p className='text-gray-500 text-sm'>summer research intern</p>
-      <p className='pb-2'>massachusetts institute of technology</p>
+      <p className='pb-2'>mit lincoln laboratory</p>
     </div>
     <div> 
-      <p className='text-gray-500 text-sm'>data analytics intern</p>
+      <p className='text-gray-500 text-sm'>data science intern</p>
       <p className='pb-2'>devoe l. moore center</p>
     </div>
     <div> 
-      <p className='text-gray-500 text-sm'>software engineer intern</p>
+      <p className='text-gray-500 text-sm'>software engineering intern</p>
       <p className='pb-2'>northrop grumman</p>
     </div>
     <div> 
