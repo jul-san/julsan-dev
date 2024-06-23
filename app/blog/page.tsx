@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 export default function Blog() {
   return (<>
-        <div className='pb-2'>
+        {/*<div className='pb-2'>
             <p className='text-gray-500 text-sm'>february 2, 2024</p>
             <Link href="/blog/i-think-my-biggest-fear-is-true" className='hover:underline'>i think my biggest fear is true ↗</Link>
-        </div>
+  </div>*/}
         <div className='pb-2'>
             <p className='text-gray-500 text-sm'>january 18, 2024</p>
             <Link href="/blog/serc-shenanigans" className="hover:underline">serc shenanigans ↗</Link>
