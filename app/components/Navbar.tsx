@@ -9,8 +9,8 @@ const Navbar = () => {
           <Link href="/" className="text-gray-500 hover:text-black">julian sanchez</Link>&nbsp;&nbsp;
           <Link href="/resume" className="text-gray-500 hover:text-black">resume</Link>&nbsp;&nbsp;
           <Link href="/blog" className="text-gray-500 hover:text-black">blog</Link>&nbsp;&nbsp;
+          <Link href="/reading" className="text-gray-500 hover:text-black">reading</Link>&nbsp;&nbsp;
           <Link href="/pics" className="text-gray-500 hover:text-black">pics</Link>&nbsp;&nbsp;
-          {/*<Link href="/food" className="text-gray-500 hover:text-black">food</Link>*/}
 
         </div>
       </div>

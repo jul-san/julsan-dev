@@ -6,16 +6,20 @@ export default function Pics() {
 
   return (<>
         <p className="pb-2">me with some cool people</p>
-      <Image style={imageStyle} src='/image/grid/vegas-tree.jpg' width={600} height={250} alt='vegas'/>
-      <Image style={imageStyle} src='/image/grid/lana-eli.jpg' width={600} height={250} alt='vegas'/>
+        <Image style={imageStyle} src='/image/grid/lana-eli.jpg' width={600} height={250} alt='vegas'/>
+        <Image style={imageStyle} src='/image/grid/hike.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/mit-id.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/tallyween-cam-carissa-sami.jpg' width={600} height={250} alt='vegas'/>
+      <Image style={imageStyle} src='/image/grid/nyc.jpg' width={600} height={250} alt='vegas'/>
+
       <Image style={imageStyle} src='/image/grid/dragon-festival.jpg' width={600} height={250} alt='vegas'/>
 
       <Image style={imageStyle} src='/image/blog/serc/kyle-nina-i-serc.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/rock-climbing.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/rachel.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/emi.jpg' width={600} height={250} alt='vegas'/>
+      <Image style={imageStyle} src='/image/grid/nyc-uri.jpg' width={600} height={250} alt='vegas'/>
+
       <Image style={imageStyle} src='/image/grid/riceball-cat-lana-eva.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/celtics.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/blog/atlanta/group-photobooth.jpg' width={600} height={250} alt='vegas'/>
@@ -38,6 +42,5 @@ export default function Pics() {
       <Image style={imageStyle} src='/image/grid/hmart-eva-selfie.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/kbbq-gainesville.jpg' width={600} height={250} alt='vegas'/>
       <Image style={imageStyle} src='/image/grid/eva-pie.jpg' width={600} height={250} alt='vegas'/>
-      <Image style={imageStyle} src='/image/grid/bonding.jpg' width={600} height={250} alt='vegas'/>
     </>)
 }
