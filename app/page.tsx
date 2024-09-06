@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>   
-        <p className="text-left">about: 19, west palm beach, third-year at florida state</p><br/>
+        <p className="text-left">about: 20, west palm beach, third-year at florida state</p><br/>
         <p className="text-left">interests: human-computer interaction, social & personality psychology, asian representation</p><br/>
         <p className="text-left">other facts: steve lacy fan, filipino-american, mediocre at chess, loves to cook (and eat)</p><br/>
         <p className="text-left">
