@@ -40,7 +40,7 @@ const IMAGE_PATHS = [
 export default function Pics() {
   return (
   <>
-    <p className="pb-2">me with some cool people</p>
+    <p className="pb-2">some of my favorite memories</p>
     
     {IMAGE_PATHS.map((IMAGES, index) =>(
       <Image key={index} 
