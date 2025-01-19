@@ -8,7 +8,12 @@ const config: Config = {
     'node_modules/preline/dist/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dohyeon: ['"Do Hyeon"', 'sans-serif'],
+        questrial: ['"Questrial"', 'sans-serif']
+      },
+    },
   },
   
   plugins: [require('preline/plugin'),],
