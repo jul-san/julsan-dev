@@ -43,11 +43,11 @@ export default function Home() {
 
       <motion.div className="text-left" variants={stagger}>
         <motion.p variants={slideUp} transition={{ duration: 0.9 }}>
-          I'm a student at{" "}
+          I&apos;m a student at{" "}
           <a href="https://www.fsu.edu/" className="underline">
             Florida State University
           </a>{" "}
-          ('26) interested in Human-Computer Interaction (HCI), specifically in
+          (&apos;26) interested in Human-Computer Interaction (HCI), specifically in
           healthcare.
         </motion.p>
         <br />
@@ -60,7 +60,7 @@ export default function Home() {
           >
             FSUs MakeX Laboratory
           </a>{" "}
-          where I'm helping to build a wearable device used to track ECG
+          where I&apos;m helping to build a wearable device used to track ECG
           signals. Previously, I was at{" "}
           <a href="https://www.ll.mit.edu/" className="underline">
             MIT Lincoln Laboratory
