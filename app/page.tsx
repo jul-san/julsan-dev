@@ -139,7 +139,7 @@ export default function Home() {
         {" "}
         <div className="flex flex-col items-center justify-center items-center py-5">
           <p>© 2025 Julian Sanchez. All Rights Reserved.</p>
-          <p>Last Modified 01/19/2025</p>
+          <p>Last Modified 01/28/2025</p>
         </div>
         <br />
       </motion.div>
