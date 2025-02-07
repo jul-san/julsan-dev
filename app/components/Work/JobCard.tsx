@@ -5,6 +5,13 @@ import { motion } from "framer-motion";
 
 const EXPERIENCE = [
   {
+    image: "/image/resume/pfizer_logo.jpg",
+    alt: "Pfizer Logo",
+    company: "Pfizer",
+    title: "AI/ML",
+    date: "Summer 2025",
+  },
+  {
     image: "/image/resume/vth-logo.jpg",
     alt: "VitalTrack Health Logo",
     company: "VitalTrack Health",
