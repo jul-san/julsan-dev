@@ -20,15 +20,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`flex justify-center items-center min-h-screen w-full ${inter.className}`}
+        className={`flex justify-center items-center min-h-screen w-full bg-white text-black ${inter.className}`}
       >
-        <div className="w-full max-w-lg mx-auto p-4 h-60 -translate-y-40 font-questrial">
-          <div className="text-left">
-              <Navbar />
+        <div className="w-full p-4 font-questrial">
+            <Navbar />
+            <main className="mt-4">
               {children}
-              <SpeedInsights />
-              <Analytics />
-          </div>
+            </main>
+            <SpeedInsights />
+            <Analytics />
+                    <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20 py-8 text-sm text-gray-600 flex flex-col items-center justify-center">
+          <p>© 2025 Julian Sanchez. All Rights Reserved.</p>
+          <p>Last Modified 09/03/2025</p>
+        </div>
         </div>
         <Script src="./node_modules/preline/dist/preline.js"></Script>
       </body>

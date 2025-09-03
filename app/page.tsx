@@ -1,148 +1,125 @@
 "use client";
 
 import Image from "next/image";
-import Navbar from "../app/components/Navbar";
-import Link from "next/link";
-import JobCard from "./components/Work/JobCard";
 import { motion } from "framer-motion";
 import { FaInstagram, FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 
 export default function Home() {
-  const slideUp = {
-    hidden: { y: -20, opacity: 0, filter: "blur(10px)" },
-    visible: { y: 0, opacity: 1, filter: "blur(0px)" },
-  };
-
-  const stagger = {
-    hidden: {},
+  // Page-level slide (applies to the whole view)
+  const slidePage = {
+    hidden: { y: 40, opacity: 0, filter: "blur(8px)" },
     visible: {
-      transition: {
-        staggerChildren: 0.2,
-      },
+      y: 0,
+      opacity: 1,
+      filter: "blur(0px)",
+      transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
     },
   };
 
+  // Child elements stagger in after the page settles
+  const stagger = {
+    hidden: {},
+    visible: { transition: { delayChildren: 0.05, staggerChildren: 0.18 } },
+  };
+
+  const slideChild = {
+    hidden: { y: 12, opacity: 0 },
+    visible: { y: 0, opacity: 1, transition: { duration: 0.5 } },
+  };
+
   return (
-    <motion.div initial="hidden" animate="visible" variants={stagger}>
-      <motion.div variants={slideUp} transition={{ duration: 0.9 }}>
-        <Image
-          src="/image/mountain.jpg"
-          alt="banner"
-          width={1000}
-          height={250}
-          className="rounded"
-        />
+    <motion.main
+      initial="hidden"
+      animate="visible"
+      variants={slidePage}
+      className="min-h-[100svh] overflow-x-hidden" // true viewport height; avoids mobile URL bar issues
+      style={{ willChange: "transform, opacity", backfaceVisibility: "hidden" }}
+    >
+      {/* Constrained, centered container to prevent layout drift on large screens */}
+      <motion.div variants={stagger} className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20">
+        {/* Hero */}
+        <section
+          className="
+            grid min-h-[100svh] grid-cols-1 lg:grid-cols-12
+            items-center gap-y-12 lg:gap-x-16 xl:gap-x-24
+          "
+        >
+          {/* Left: circular profile image */}
+          <div className="flex justify-center lg:justify-end col-span-1 lg:col-span-5">
+            <div className="relative w-60 h-60 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
+              <Image
+                src="/image/taiwan-headshot.jpg"
+                alt="Portrait of Julian Sanchez"
+                fill
+                priority
+                sizes="(min-width:1280px) 20rem, (min-width:1024px) 20rem, (min-width:640px) 18rem, 15rem"
+                className="rounded-full object-cover ring-2 ring-black/10 shadow-xl"
+              />
+            </div>
+          </div>
+
+          {/* Right: description + social links */}
+          <div className="flex flex-col justify-center col-span-1 lg:col-span-7 lg:pl-12 xl:pl-16 max-w-prose">
+            <motion.p variants={slideChild} className="text-lg">
+              Hey there!
+            </motion.p>
+
+            <motion.p variants={slideChild} className="mt-4 leading-7">
+              My name is Julian Sanchez. I&apos;m a 4th year undergraduate at Florida State University, where I&apos;m
+              pursuing a degree in computer science.
+            </motion.p>
+
+            <motion.p variants={slideChild} className="mt-4 leading-7">
+              Throughout my time in undergrad, I&apos;ve explored various applications of computer science including
+              aerospace, weapons defense, academia, healthcare, and more!
+            </motion.p>
+
+            <motion.p variants={slideChild} className="mt-3 leading-7">
+              In my free time I enjoy playing video games (Overwatch 2, Marvel Rivals, and Dead by Daylight), listening to R&amp;B and Indie Pop,
+              eating, and cooking (so that I can eat more).
+            </motion.p>
+
+            <motion.p variants={slideChild} className="mt-3 leading-7">
+              I&apos;d love to meet you — say hello! julianwsan [at] gmail [dot] com
+            </motion.p>
+
+            {/* Socials */}
+            <motion.div variants={slideChild} className="mt-6 flex items-center gap-4">
+              <a
+                href="https://www.instagram.com/julianwsanchez/"
+                title="Instagram"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+              >
+                <FaInstagram className="size-7" />
+              </a>
+              <a
+                href="https://x.com/julianwsanchez"
+                title="X (Twitter)"
+                aria-label="X (Twitter)"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+              >
+                <FaSquareXTwitter className="size-7" />
+              </a>
+              <a
+                href="https://github.com/jul-san"
+                title="GitHub"
+                aria-label="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-transform hover:scale-110"
+              >
+                <FaGithubSquare className="size-7" />
+              </a>
+            </motion.div>
+          </div>
+        </section>
       </motion.div>
-
-      <motion.hr
-        variants={slideUp}
-        transition={{ duration: 0.9 }}
-        className="border-t-100 border-solid border-black p-1"
-      />
-
-      <motion.div className="text-left" variants={stagger}>
-        <motion.p variants={slideUp} transition={{ duration: 0.9 }}>
-          I&apos;m a student at{" "}
-          <a href="https://www.fsu.edu/" className="underline">
-            Florida State University
-          </a>{" "}
-          (&apos;26) interested in Human-Computer Interaction (HCI), specifically in
-          healthcare.
-        </motion.p>
-        <br />
-
-        <motion.p variants={slideUp} transition={{ duration: 0.9 }}>
-          I currently do research at{" "}
-          <a
-            href="https://www.cs.fsu.edu/~twu/makex/index.html"
-            className="underline"
-          >
-            FSUs MakeX Laboratory
-          </a>{" "}
-          where I&apos;m helping to build a wearable device used to track ECG
-          signals. Previously, I was at{" "}
-          <a href="https://www.ll.mit.edu/" className="underline">
-            MIT Lincoln Laboratory
-          </a>{" "}
-          working on a similar project. My first internship was at{" "}
-          <a href="https://www.northropgrumman.com/" className="underline">
-            Northrop Grumman
-          </a>{" "}
-          where I worked on the{" "}
-          <a
-            href="https://www.northropgrumman.com/what-we-do/air/b-21-raider"
-            className="underline"
-          >
-            B-21 Raider
-          </a>
-          .
-        </motion.p>
-        <br />
-
-        <motion.p variants={slideUp} transition={{ duration: 0.9 }}>
-          In my free time, I enjoy playing video games (Overwatch 2, Marvel
-          Rivals, Dead by Daylight), listening to R&B, eating, and cooking
-          so that I can eat more.
-        </motion.p>
-        <br />
-
-        <motion.p variants={slideUp} transition={{ duration: 0.9 }}>
-          Feel free to contact me on{" "}
-          <a href="https://www.linkedin.com/in/jul-san/" className="underline">
-            LinkedIn
-          </a>
-          , or at{" "}
-          <a href="mailto:julianwsan@gmail.com" className="underline">
-            julianwsan@gmail.com
-          </a>
-          !
-        </motion.p>
-        <br />
-      </motion.div>
-
-      <motion.div variants={slideUp} transition={{ duration: 0.9, delay: 0.9 }}>
-        {" "}
-        <div className="flex flex-items-center justify-items-start">
-          <a
-            href="https://www.instagram.com/julianwsanchez/"
-            title="Instagram Logo"
-            className="pr-2"
-          >
-            <FaInstagram className="size-6" />
-          </a>
-          <a
-            href="https://x.com/julianwsanchez"
-            title="X Logo"
-            className="pr-2"
-          >
-            <FaSquareXTwitter className="size-6" />
-          </a>
-          <a
-            href="https://github.com/jul-san"
-            title="GitHub Logo"
-            className="pr-2"
-          >
-            <FaGithubSquare className="size-6" />
-          </a>
-        </div>
-        <br />
-      </motion.div>
-
-      <motion.div variants={slideUp} transition={{ duration: 0.9, delay: 0.9 }}>
-        {" "}
-        <p className="font-dohyeon text-xl">Work</p>
-        <JobCard />
-      </motion.div>
-
-      <motion.div variants={slideUp} transition={{ duration: 0.9, delay: 0.9 }}>
-        {" "}
-        <div className="flex flex-col items-center justify-center items-center py-5">
-          <p>© 2025 Julian Sanchez. All Rights Reserved.</p>
-          <p>Last Modified 02/07/2025</p>
-        </div>
-        <br />
-      </motion.div>
-    </motion.div>
+    </motion.main>
   );
 }
