@@ -13,7 +13,7 @@ const Navbar = () => {
             02 : Resume
           </Link>
           <span>|</span>
-          <Link href="/pics" className="hover:text-black">
+          <Link href="/moments" className="hover:text-black">
             03 : Moments
           </Link>
         </div>
