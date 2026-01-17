@@ -31,7 +31,7 @@ const SECTIONS: Section[] = [
         logoSrc: "/image/resume/snu-logo.jpg",
         alt: "Seoul National University Logo",
         name: "Seoul National University",
-        description: "Exchange Program in Engineering and Computer Science",
+        description: "Exchange Semester in Computer Science",
       },
     ],
   },
@@ -39,10 +39,16 @@ const SECTIONS: Section[] = [
     header: "Experience",
     items: [
       {
-        logoSrc: "/image/resume/rai-logo.jpg",
+        logoSrc: "/image/resume/jhu-apl-logo.jpg",
         alt: "Pfizer Logo",
-        name: "FSU Responsible AI Laboratory",
-        description: "Research Assistant",
+        name: "Johns Hopkins Applied Physics Laboratory",
+        description: "Research Engineering Intern",
+      },
+      {
+        logoSrc: "/image/resume/syntech-systems-logo.jpg",
+        alt: "Pfizer Logo",
+        name: "Syntech Systems",
+        description: "Software Test Engineering Intern",
       },
       {
         logoSrc: "/image/resume/pfizer-logo-new.jpg",
@@ -54,7 +60,7 @@ const SECTIONS: Section[] = [
         logoSrc: "/image/resume/mitll-logo.jpg",
         alt: "MIT Lincoln Laboratory Logo",
         name: "MIT Lincoln Laboratory",
-        description: "Summer Research Program Intern",
+        description: "Research Engineering Intern",
       },
       {
         logoSrc: "/image/resume/ng-logo.jpg",

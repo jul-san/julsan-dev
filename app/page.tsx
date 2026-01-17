@@ -49,7 +49,7 @@ export default function Home() {
           <div className="flex justify-center lg:justify-end col-span-1 lg:col-span-5">
             <div className="relative w-60 h-60 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
               <Image
-                src="/image/taiwan-headshot.jpg"
+                src="/image/hiking-headshot.jpg"
                 alt="Portrait of Julian Sanchez"
                 fill
                 priority
@@ -72,7 +72,7 @@ export default function Home() {
 
             <motion.p variants={slideChild} className="mt-4 leading-7">
               Throughout my time in undergrad, I&apos;ve explored various applications of computer science including
-              aerospace, weapons defense, academia, healthcare, and more!
+              aerospace, defense, academia, healthcare, and more!
             </motion.p>
 
             <motion.p variants={slideChild} className="mt-3 leading-7">
