@@ -30,8 +30,8 @@ export default function RootLayout({
             <SpeedInsights />
             <Analytics />
                     <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20 py-8 text-sm text-gray-600 flex flex-col items-center justify-center">
-          <p>© 2025 Julian Sanchez. All Rights Reserved.</p>
-          <p>Last Modified 09/03/2025</p>
+          <p>© 2026 Julian Sanchez. All Rights Reserved.</p>
+          <p>Last Modified 02/01/2026</p>
         </div>
         </div>
         <Script src="./node_modules/preline/dist/preline.js"></Script>
