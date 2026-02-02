@@ -40,15 +40,9 @@ const SECTIONS: Section[] = [
     items: [
       {
         logoSrc: "/image/resume/jhu-apl-logo.jpg",
-        alt: "Pfizer Logo",
+        alt: "JHUAPL Logo",
         name: "Johns Hopkins Applied Physics Laboratory",
-        description: "Research Engineering Intern",
-      },
-      {
-        logoSrc: "/image/resume/syntech-systems-logo.jpg",
-        alt: "Pfizer Logo",
-        name: "Syntech Systems",
-        description: "Software Test Engineering Intern",
+        description: "Software Engineering Intern",
       },
       {
         logoSrc: "/image/resume/pfizer-logo-new.jpg",
