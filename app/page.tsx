@@ -81,7 +81,7 @@ export default function Home() {
             </motion.p>
 
             <motion.p variants={slideChild} className="mt-3 leading-7">
-              I&apos;d love to meet you — say hello! julianwsan [at] gmail [dot] com
+              I&apos;d love to meet you — say hello! julianwsan [at] pm [dot] me
             </motion.p>
 
             {/* Socials */}
