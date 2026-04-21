@@ -1,4 +1,13 @@
+import { Fragment } from "react";
 import Image from "next/image";
+
+const EXPERIENCE = [
+  { label: "Interning at Johns Hopkins Applied Physics Laboratory", href: null, date: "Summer 2026" },
+  { label: "Interned at Pfizer", href: "https://www.pfizer.com/", date: "Summer 2025" },
+  { label: "Studied abroad at Seoul National University", href:"https://www.pfizer.com/" , date: "Spring 2025" },
+  { label: "Interned at MIT Lincoln Laboratory", href:"https://www.pfizer.com/" , date: "Summer 2024" },
+  { label: "Interned at Northrop Grumman", href: "https://www.ll.mit.edu/", date: "Summer 2023" },
+];
 
 export default function Home() {
   return (
@@ -18,7 +27,7 @@ export default function Home() {
           </div>
           <div className="col-span-4">
             <h1 className="font-bold text-5xl p-3 grid place-items-center mb-4">
-              Hi. I&apos;m Julian.
+              Hi, I&apos;m Julian! 👋
             </h1>
             <div className="text-xl p-3 grid place-items-center">
               <p>
@@ -58,35 +67,20 @@ export default function Home() {
         <div className="mb-8">
           <h2 className="text-3xl font-bold mb-4">What I&apos;ve been up to:</h2>
           <div className="grid grid-cols-2 gap-2">
-            <div>
-              <a href="https://www.pfizer.com/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                AI/ML intern at Pfizer ↗
-              </a>
-            </div>
-            <div>Summer 2025</div>
-
-            <div>Software Engineer at VitalTrack Health</div>
-            <div>Present</div>
-
-            <div>Researcher at FSU MakeX Lab</div>
-            <div>Present</div>
-
-            <div>
-              <a href="https://www.ll.mit.edu/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                Research &amp; Engineering intern at MIT Lincoln Laboratory ↗
-              </a>
-            </div>
-            <div>2024</div>
-
-            <div>Data Analytics at DeVoe L. Moore Center</div>
-            <div>2024</div>
-
-            <div>
-              <a href="https://www.northropgrumman.com/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                Engineering intern at Northrop Grumman ↗
-              </a>
-            </div>
-            <div>2023</div>
+            {EXPERIENCE.map((job, i) => (
+              <Fragment key={i}>
+                <div>
+                  {job.href ? (
+                    <a href={job.href} className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
+                      {job.label} ↗
+                    </a>
+                  ) : (
+                    job.label
+                  )}
+                </div>
+                <div>{job.date}</div>
+              </Fragment>
+            ))}
           </div>
         </div>
 
