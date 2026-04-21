@@ -1,11 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter, Do_Hyeon } from "next/font/google";
+import { Inter } from "next/font/google";
 import Navbar from "../app/components/Navbar";
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
-import { motion } from "framer-motion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,7 +33,7 @@ export default function RootLayout({
           <p>Last Modified 02/01/2026</p>
         </div>
         </div>
-        <Script src="./node_modules/preline/dist/preline.js"></Script>
+        <Script src="https://cdn.jsdelivr.net/npm/preline@2.1.0/dist/preline.min.js" strategy="afterInteractive"></Script>
       </body>
     </html>
   );
