@@ -1,8 +1,5 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
 
 const IMAGES_WITH_CAPTIONS = [
   { 
@@ -383,63 +380,32 @@ const IMAGES_WITH_CAPTIONS = [
 ];
 
 export default function Pics() {
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-      },
-    },
-  };
-
   return (
     <div className="px-6 md:px-12 lg:px-20 py-12">
-      <motion.div variants={container} initial="hidden" animate="show">
-        <motion.div variants={item} className="mb-8 text-center">
-          <i className="text-lg"> Life&apos;s just about the friends we made along the way.</i>
-        </motion.div>
+      <div className="mb-8 text-center">
+        <i className="text-lg"> Life&apos;s just about the friends we made along the way.</i>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
-          {IMAGES_WITH_CAPTIONS.map((imageData, index) => (
-            <motion.div 
-              key={index} 
-              variants={item}
-              className="flex flex-col space-y-3"
-            >
-              <div className="text-sm">
-                <p className="text-gray-800 font-medium">
-                  {imageData.caption}
-                </p>
-                <p className="text-gray-600">
-                  {imageData.date}
-                </p>
-              </div>
-              <div className="relative w-full aspect-[4/3] overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
-                <Image
-                  src={imageData.path}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  alt={`${imageData.caption} - ${imageData.date}`}
-                  className="object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+        {IMAGES_WITH_CAPTIONS.map((imageData, index) => (
+          <div key={index} className="flex flex-col space-y-3">
+            <div className="text-sm">
+              <p className="text-gray-800 font-medium">{imageData.caption}</p>
+              <p className="text-gray-600">{imageData.date}</p>
+            </div>
+            <div className="relative w-full aspect-[4/3] overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+              <Image
+                src={imageData.path}
+                fill
+                loading="lazy"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                alt={`${imageData.caption} - ${imageData.date}`}
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
