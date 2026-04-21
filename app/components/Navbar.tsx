@@ -7,7 +7,6 @@ const Navbar = () => {
         <span className="text-xl font-bold">Julian Sanchez</span>
         <div>
           <Link href="/" className="mx-2 hover:underline">Home</Link>
-          <Link href="/resume" className="mx-2 hover:underline">Resume</Link>
           <Link href="/moments" className="mx-2 hover:underline">Moments</Link>
         </div>
       </div>
