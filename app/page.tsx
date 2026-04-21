@@ -1,6 +1,14 @@
 import { Fragment } from "react";
 import Image from "next/image";
 
+const LOGOS = [
+  { src: "/image/resume/jhu-apl-logo.jpg",    alt: "JHU APL",                  offset: 0  },
+  { src: "/image/resume/pfizer-logo-new.jpg", alt: "Pfizer",                   offset: 64 },
+  { src: "/image/resume/snu-logo.jpg",        alt: "Seoul National University", offset: 0  },
+  { src: "/image/resume/mitll-logo.jpg",      alt: "MIT Lincoln Laboratory",    offset: 64 },
+  { src: "/image/resume/ng-logo.jpg",         alt: "Northrop Grumman",          offset: 0  },
+];
+
 const EXPERIENCE = [
   { label: "Interning at Johns Hopkins Applied Physics Laboratory", href: null, date: "Summer 2026" },
   { label: "Interned at Pfizer", href: "https://www.pfizer.com/", date: "Summer 2025" },
@@ -66,21 +74,41 @@ export default function Home() {
         {/* What I've been up to */}
         <div className="mb-8">
           <h2 className="text-3xl font-bold mb-4">What I&apos;ve been up to:</h2>
-          <div className="grid grid-cols-2 gap-2">
-            {EXPERIENCE.map((job, i) => (
-              <Fragment key={i}>
-                <div>
-                  {job.href ? (
-                    <a href={job.href} className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                      {job.label} ↗
-                    </a>
-                  ) : (
-                    job.label
-                  )}
-                </div>
-                <div>{job.date}</div>
-              </Fragment>
+          <div className="flex flex-col sm:flex-row gap-10 items-start">
+          {/* Experience list */}
+          <div className="flex-1 min-w-0">
+            <div className="grid gap-x-6 gap-y-2" style={{ gridTemplateColumns: "1fr auto" }}>
+              {EXPERIENCE.map((job, i) => (
+                <Fragment key={i}>
+                  <div>
+                    {job.href ? (
+                      <a href={job.href} className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
+                        {job.label} ↗
+                      </a>
+                    ) : (
+                      job.label
+                    )}
+                  </div>
+                  <div className="whitespace-nowrap">{job.date}</div>
+                </Fragment>
+              ))}
+            </div>
+          </div>
+
+          {/* Staggered logos — right on desktop, centered below on mobile */}
+          <div className="flex flex-row items-start gap-3 w-full justify-center sm:w-auto sm:justify-start shrink-0 sm:-mt-3">
+            {LOGOS.map((logo, i) => (
+              <div key={i} style={{ marginTop: logo.offset }}>
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={120}
+                  height={120}
+                  className="object-contain bg-white"
+                />
+              </div>
             ))}
+          </div>
           </div>
         </div>
 
