@@ -427,7 +427,7 @@ export default function Pics() {
                   {imageData.date}
                 </p>
               </div>
-              <div className="relative w-full aspect-[4/3] overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              <div className="relative w-full aspect-[4/3] overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
                 <Image
                   src={imageData.path}
                   fill
