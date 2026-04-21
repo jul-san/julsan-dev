@@ -18,20 +18,18 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body
-        className={`flex justify-center items-center min-h-screen w-full bg-white text-black ${inter.className}`}
-      >
-        <div className="w-full p-4 font-questrial">
-            <Navbar />
-            <main className="mt-4">
-              {children}
-            </main>
-            <SpeedInsights />
-            <Analytics />
-                    <div className="mx-auto w-full max-w-6xl px-6 md:px-12 lg:px-20 py-8 text-sm text-gray-600 flex flex-col items-center justify-center">
-          <p>© 2026 Julian Sanchez. All Rights Reserved.</p>
-          <p>Last Modified 02/01/2026</p>
-        </div>
+      <body className={`w-full bg-white text-black ${inter.className}`}>
+        <div className="w-full font-questrial">
+          <Navbar />
+          <main>
+            {children}
+          </main>
+          <SpeedInsights />
+          <Analytics />
+          <footer className="container mx-auto px-4 py-8 text-sm text-gray-600 text-center">
+            <p>© 2026 Julian Sanchez. All Rights Reserved.</p>
+            <p>Last Modified 02/01/2026</p>
+          </footer>
         </div>
         <Script src="https://cdn.jsdelivr.net/npm/preline@2.1.0/dist/preline.min.js" strategy="afterInteractive"></Script>
       </body>

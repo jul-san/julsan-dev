@@ -2,20 +2,13 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white-0 py-2">
-      <div className="container mx-auto flex items-center">
-        <div className="flex space-x-2 font-dohyeon text-gray-500">
-          <Link href="/" className="hover:text-black">
-            01 : Home
-          </Link>
-          <span>|</span>
-          <Link href="/resume" className="hover:text-black">
-            02 : Resume
-          </Link>
-          <span>|</span>
-          <Link href="/moments" className="hover:text-black">
-            03 : Moments
-          </Link>
+    <nav className="bg-gray-800 text-white p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <span className="text-xl font-bold">Julian Sanchez</span>
+        <div>
+          <Link href="/" className="mx-2 hover:underline">Home</Link>
+          <Link href="/resume" className="mx-2 hover:underline">Resume</Link>
+          <Link href="/moments" className="mx-2 hover:underline">Moments</Link>
         </div>
       </div>
     </nav>
