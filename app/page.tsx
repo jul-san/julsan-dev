@@ -23,41 +23,25 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8">
         {/* Hero */}
         <div className="grid grid-cols-1 sm:grid-cols-5 gap-6 mb-8">
-          <div className="grid place-items-center p-3">
+          <div className="w-full flex justify-center p-3 sm:pl-3 pl-16">
             <Image
               src="/image/hiking-headshot.jpg"
               alt="Julian Sanchez"
               width={192}
               height={192}
-              className="rounded-full w-48 h-48 object-cover"
+              className="object-cover rounded-full w-48 h-48"
               priority
             />
           </div>
           <div className="col-span-4">
-            <h1 className="font-bold text-5xl p-3 grid place-items-center mb-4">
+            <h1 className="font-bold text-[clamp(1.5rem,4vw,3rem)] p-3 grid place-items-center mb-4 whitespace-nowrap">
               Hi, I&apos;m Julian! 👋
             </h1>
             <div className="text-xl p-3 grid place-items-center">
               <p>
-                I&apos;m a 4th year undergraduate at{" "}
-                <a href="https://www.fsu.edu/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                  Florida State University
-                </a>
-                , studying computer science. My interests span from aerospace and defense to machine
-                learning and healthcare. I&apos;ve interned at{" "}
-                <a href="https://www.pfizer.com/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                  Pfizer
-                </a>
-                ,{" "}
-                <a href="https://www.ll.mit.edu/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                  MIT Lincoln Laboratory
-                </a>
-                , and{" "}
-                <a href="https://www.northropgrumman.com/" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
-                  Northrop Grumman
-                </a>
-                . Outside of work, I enjoy playing video games, listening to R&amp;B and Indie Pop,
-                and cooking.
+                I&apos;m an undergraduate at{" "} Florida State University (go 'Noles!), studying computer science. 
+                My interests span from aerospace and defense to machine learning and healthcare. Outside of work, I 
+                enjoy playing video games, listening to R&amp;B and Indie Pop, and cooking.
               </p>
             </div>
             <div className="text-lg text-sky-600 p-3 grid place-items-center">
@@ -77,7 +61,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-10 items-start">
           {/* Experience list */}
           <div className="flex-1 min-w-0">
-            <div className="grid gap-x-6 gap-y-2" style={{ gridTemplateColumns: "1fr auto" }}>
+            <div className="grid gap-x-6 gap-y-2 text-xl" style={{ gridTemplateColumns: "1fr auto" }}>
               {EXPERIENCE.map((job, i) => (
                 <Fragment key={i}>
                   <div>
@@ -102,8 +86,8 @@ export default function Home() {
                 <Image
                   src={logo.src}
                   alt={logo.alt}
-                  width={120}
-                  height={120}
+                  width={100}
+                  height={100}
                   className="object-contain bg-white"
                 />
               </div>
@@ -113,14 +97,25 @@ export default function Home() {
         </div>
 
         {/* Things I'm interested in */}
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4">Things I&apos;m interested in:</h2>
-          <ul className="list-disc list-inside">
-            <li>Aerospace and defense systems</li>
-            <li>Machine learning applications in healthcare</li>
-            <li>Systems programming and low-level computing</li>
-            <li>Academic research in computer science</li>
-          </ul>
+        <div className="mb-8 flex flex-col sm:flex-row gap-4 items-start">
+          <div className="flex-1 text-left pt-20">
+            <h2 className="text-3xl font-bold mb-4">Things I&apos;m interested in:</h2>
+            <ul className="list-none text-xl">
+              <li>Aerospace and defense systems</li>
+              <li>Machine learning applications in healthcare</li>
+              <li>Systems programming and low-level computing</li>
+              <li>Academic research in computer science</li>
+            </ul>
+          </div>
+          <div className="w-full sm:w-[42rem] shrink-0 order-last sm:order-first">
+            <Image
+              src="/image/han-river.jpeg"
+              alt="Han River"
+              width={672}
+              height={944}
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </div>
     </main>
