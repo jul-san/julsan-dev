@@ -37,10 +37,10 @@ export default function Home() {
             <h1 className="font-bold text-[clamp(1.5rem,4vw,3rem)] p-3 grid place-items-center mb-4 whitespace-nowrap">
               Hi, I&apos;m Julian! 👋
             </h1>
-            <div className="text-xl p-3 grid place-items-center">
+            <div className="text-xl p-3 grid place-items-center text-center sm:text-left">
               <p>
-                I&apos;m an undergraduate at{" "} Florida State University (go 'Noles!), studying computer science. 
-                My interests span from aerospace and defense to machine learning and healthcare. Outside of work, I 
+                I&apos;m an undergraduate at{" "} Florida State University (go 'Noles!), studying computer science.
+                My interests span from aerospace and defense to machine learning and healthcare. Outside of work, I
                 enjoy playing video games, listening to R&amp;B and Indie Pop, and cooking.
               </p>
             </div>
@@ -56,8 +56,8 @@ export default function Home() {
         </div>
 
         {/* What I've been up to */}
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4">What I&apos;ve been up to:</h2>
+        <div className="mb-2 sm:mb-8">
+          <h2 className="text-3xl font-bold mb-4 text-center sm:text-left">What I&apos;ve been up to:</h2>
           <div className="flex flex-col sm:flex-row gap-10 items-start">
           {/* Experience list */}
           <div className="flex-1 min-w-0">
@@ -98,14 +98,12 @@ export default function Home() {
 
         {/* Things I'm interested in */}
         <div className="mb-8 flex flex-col sm:flex-row gap-4 items-start">
-          <div className="flex-1 text-left pt-20">
+          <div className="flex-1 text-center sm:text-left pt-20">
             <h2 className="text-3xl font-bold mb-4">Things I&apos;m interested in:</h2>
-            <ul className="list-none text-xl">
-              <li>Aerospace and defense systems</li>
-              <li>Machine learning applications in healthcare</li>
-              <li>Systems programming and low-level computing</li>
-              <li>Academic research in computer science</li>
-            </ul>
+            <p className="text-xl">
+              I&apos;m broadly interested in aerospace and defense systems, machine learning applications
+              in healthcare, systems programming, and academic research in computer science.
+            </p>
           </div>
           <div className="w-full sm:w-[42rem] shrink-0 order-last sm:order-first">
             <Image
