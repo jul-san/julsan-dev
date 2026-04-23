@@ -27,8 +27,8 @@ export default function RootLayout({
           <SpeedInsights />
           <Analytics />
           <footer className="container mx-auto px-4 py-8 text-sm text-gray-600 text-center">
-            <p>© 2026 Julian Sanchez. All Rights Reserved.</p>
-            <p>Last Modified 02/01/2026</p>
+            <p>Inspired by dank memes and big dreams :)</p>
+            <p>Last Modified 04/22/2026</p>
           </footer>
         </div>
         <Script src="https://cdn.jsdelivr.net/npm/preline@2.1.0/dist/preline.min.js" strategy="afterInteractive"></Script>

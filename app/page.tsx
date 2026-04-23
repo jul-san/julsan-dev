@@ -10,11 +10,11 @@ const LOGOS = [
 ];
 
 const EXPERIENCE = [
-  { label: "Interning at Johns Hopkins Applied Physics Laboratory", href: null, date: "Summer 2026" },
+  { label: "Interning at Johns Hopkins Applied Physics Laboratory", href: "https://www.jhuapl.edu/", date: "Summer 2026" },
   { label: "Interned at Pfizer", href: "https://www.pfizer.com/", date: "Summer 2025" },
-  { label: "Studied abroad at Seoul National University", href:"https://www.pfizer.com/" , date: "Spring 2025" },
-  { label: "Interned at MIT Lincoln Laboratory", href:"https://www.pfizer.com/" , date: "Summer 2024" },
-  { label: "Interned at Northrop Grumman", href: "https://www.ll.mit.edu/", date: "Summer 2023" },
+  { label: "Studied abroad at Seoul National University", href: "https://www.snu.ac.kr/", date: "Spring 2025" },
+  { label: "Interned at MIT Lincoln Laboratory", href: "https://www.ll.mit.edu/", date: "Summer 2024" },
+  { label: "Interned at Northrop Grumman", href: "https://www.northropgrumman.com/", date: "Summer 2023" },
 ];
 
 export default function Home() {
@@ -40,8 +40,9 @@ export default function Home() {
             <div className="text-xl p-3 grid place-items-center text-center sm:text-left">
               <p>
                 I&apos;m an undergraduate at{" "} Florida State University (go 'Noles!), studying computer science.
-                My interests span from aerospace and defense to machine learning and healthcare. Outside of work, I
-                enjoy playing video games, listening to R&amp;B and Indie Pop, and cooking.
+                My recent interests span aerospace, defense, govtech, and robotics, though I&apos;m always open to exploring 
+                new domains! I enjoy working primarily in compiled languages (C++, Java, Rust, some C#), along with Python.
+                I&apos;m especially interested in building internal tools that support engineers across other disciplines!
               </p>
             </div>
             <div className="text-lg text-sky-600 p-3 grid place-items-center">
@@ -98,14 +99,21 @@ export default function Home() {
 
         {/* Things I'm interested in */}
         <div className="mb-8 flex flex-col sm:flex-row gap-4 items-start">
-          <div className="flex-1 text-center sm:text-left pt-20">
-            <h2 className="text-3xl font-bold mb-4">Things I&apos;m interested in:</h2>
-            <p className="text-xl">
-              I&apos;m broadly interested in aerospace and defense systems, machine learning applications
-              in healthcare, systems programming, and academic research in computer science.
+          <div className="flex-1 text-center sm:text-left pt-4 sm:pt-10 lg:pt-20">
+            <h2 className="text-3xl sm:text-2xl lg:text-3xl font-bold mb-3">Outside of Work:</h2>
+            <p className="text-xl sm:text-base lg:text-xl mb-3">
+              In my free time, I enjoy playing video games, mainly Overwatch, where I&apos;ve ranked Top 500 globally,
+              and Dead by Daylight, where I&apos;ve reached Rank 1 in both Killer and Survivor (which is about as useful
+              as it sounds). I even played for my school&apos;s eSports team for a year too!
+            </p>
+            <p className="text-xl sm:text-base lg:text-xl">
+              I also love hiking and exploring new places! I&apos;ve summited 지리산 (Jirisan),
+              mainland South Korea&apos;s tallest mountain, and solo traveled to Thailand for a week.
+              I&apos;m also a huge foodie! I&apos;ve eaten at every restaurant in Boston&apos;s
+              Chinatown and am always on the hunt for something new. You can find all my takes on my <a href="https://beliapp.co/app/julianwsanchez" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">Beli</a> account.
             </p>
           </div>
-          <div className="w-full sm:w-[42rem] shrink-0 order-last sm:order-first">
+          <div className="w-full sm:w-[28rem] lg:w-[42rem] shrink-0 order-last sm:order-first">
             <Image
               src="/image/han-river.jpeg"
               alt="Han River"
@@ -114,6 +122,17 @@ export default function Home() {
               className="w-full h-auto object-cover"
             />
           </div>
+        </div>
+
+        {/* Footer message */}
+        <div className="mb-8 mt-4 text-xl text-center">
+          <p>
+            I&apos;m always happy to connect, whether it&apos;s for career advice, finding the best food spots, or
+            anything in between. Feel free to reach out! You&apos;re also welcome to check out my{" "}
+            <a href="/JulianSanchezResumeWebsite.pdf" className="text-sky-600 hover:text-sky-800" target="_blank" rel="noopener noreferrer">
+              resume
+            </a>, if you like that kind of stuff.
+          </p>
         </div>
       </div>
     </main>
