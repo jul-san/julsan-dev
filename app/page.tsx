@@ -1,15 +1,15 @@
 import Image from "next/image";
 
 const EXPERIENCE = [
-  { label: "Interning at Johns Hopkins Applied Physics Laboratory", href: "https://www.jhuapl.edu/", date: "Summer 2026", logo: "/image/resume/jhu-apl-logo.jpg" },
-  { label: "Interned at Pfizer", href: "https://www.pfizer.com/", date: "Summer 2025", logo: "/image/resume/pfizer-logo-new.jpg" },
-  { label: "Interned at MIT Lincoln Laboratory", href: "https://www.ll.mit.edu/", date: "Summer 2024", logo: "/image/resume/mitll-logo.jpg" },
-  { label: "Interned at Northrop Grumman", href: "https://www.northropgrumman.com/", date: "Summer 2023", logo: "/image/resume/ng-logo.jpg" },
+  { company: "Johns Hopkins Applied Physics Laboratory", href: "https://www.jhuapl.edu/", date: "Summer 2026", logo: "/image/resume/jhu-apl-logo.jpg" },
+  { company: "Pfizer", href: "https://www.pfizer.com/", date: "Summer 2025", logo: "/image/resume/pfizer-logo-new.jpg" },
+  { company: "MIT Lincoln Laboratory", href: "https://www.ll.mit.edu/", date: "Summer 2024", logo: "/image/resume/mitll-logo.jpg" },
+  { company: "Northrop Grumman", href: "https://www.northropgrumman.com/", date: "Summer 2023", logo: "/image/resume/ng-logo.jpg" },
 ];
 
 const EDUCATION = [
-  { label: "B.S. in Computer Science, Florida State University", href: "https://www.fsu.edu/", date: "2022 – Present", logo: "/image/resume/fsu-logo-seal.jpg" },
-  { label: "Exchange Semester, Seoul National University", href: "https://www.snu.ac.kr/", date: "Spring 2025", logo: "/image/resume/snu-logo.jpg" },
+  { school: "Florida State University", degree: "B.S. in Computer Science", href: "https://www.fsu.edu/", date: "2022 – Present", logo: "/image/resume/fsu-logo-seal.jpg" },
+  { school: "Seoul National University", degree: "Exchange Semester", href: "https://www.snu.ac.kr/", date: "Spring 2025", logo: "/image/resume/snu-logo.jpg" },
 ];
 
 export default function Home() {
@@ -71,9 +71,9 @@ export default function Home() {
           {EXPERIENCE.map((job, i) => (
             <div key={i} className="flex justify-between items-center gap-6">
               <div className="flex items-center gap-3">
-                <Image src={job.logo} alt={job.label} width={24} height={24} className="object-contain shrink-0" />
+                <Image src={job.logo} alt={job.company} width={24} height={24} className="object-contain shrink-0" />
                 <a href={job.href} target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">
-                  {job.label}
+                  {job.company}
                 </a>
               </div>
               <span className="text-sm whitespace-nowrap text-gray-400">{job.date}</span>
@@ -89,10 +89,13 @@ export default function Home() {
           {EDUCATION.map((edu, i) => (
             <div key={i} className="flex justify-between items-center gap-6">
               <div className="flex items-center gap-3">
-                <Image src={edu.logo} alt={edu.label} width={24} height={24} className="object-contain shrink-0" />
-                <a href={edu.href} target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">
-                  {edu.label}
-                </a>
+                <Image src={edu.logo} alt={edu.school} width={24} height={24} className="object-contain shrink-0" />
+                <span>
+                  <a href={edu.href} target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">
+                    {edu.school}
+                  </a>
+                  <span className="text-sm text-gray-400"> ({edu.degree})</span>
+                </span>
               </div>
               <span className="text-sm whitespace-nowrap text-gray-400">{edu.date}</span>
             </div>
