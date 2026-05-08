@@ -8,7 +8,7 @@ const EXPERIENCE = [
 ];
 
 const EDUCATION = [
-  { school: "Florida State University", degree: "B.S. in Computer Science", href: "https://www.fsu.edu/", date: "2022 – Present", logo: "/image/resume/fsu-logo-seal.jpg" },
+  { school: "Florida State University", degree: "BSc in Computer Science", href: "https://www.fsu.edu/", date: "Expected May 2027", logo: "/image/resume/fsu-logo-seal.jpg" },
   { school: "Seoul National University", degree: "Exchange Semester", href: "https://www.snu.ac.kr/", date: "Spring 2025", logo: "/image/resume/snu-logo.jpg" },
 ];
 
@@ -19,12 +19,9 @@ export default function Home() {
       {/* Hero */}
       <section className="relative mb-12">
         <div className="md:pr-52">
-          <h1 className="text-4xl font-semibold mb-4">Hi, I&apos;m Julian! 👋</h1>
+          <h1 className="text-4xl font-semibold mb-4">Hi, I&apos;m Julian!</h1>
           <p className="leading-relaxed mb-5">
-            I&apos;m an undergraduate at{" "}
-            <a href="https://www.fsu.edu/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">
-              Florida State University
-            </a>{" "}
+            I&apos;m an undergraduate at Florida State University
             (go &apos;Noles!), studying computer science. My recent interests span aerospace, defense,
             govtech, and robotics, though I&apos;m always open to exploring new domains. I enjoy working
             primarily in compiled languages (C++, Java, Rust, some C#), along with Python. I&apos;m
@@ -35,7 +32,6 @@ export default function Home() {
             <a href="https://github.com/jul-san" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">GitHub</a>
             <a href="https://www.instagram.com/julianwsanchez/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">Instagram</a>
             <a href="https://x.com/julianwsanchez" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">X</a>
-            <a href="/JulianSanchezResumeWebsite.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">Resume</a>
           </div>
         </div>
 
@@ -107,15 +103,14 @@ export default function Home() {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Outside of Work</h2>
         <p className="leading-relaxed mb-3">
-          In my free time, I enjoy playing video games — mainly Overwatch, where I&apos;ve ranked Top 500
+          In my free time, I enjoy playing video games! Overwatch is my most played game, where I&apos;ve ranked Top 500
           globally, and Dead by Daylight, where I&apos;ve reached Rank 1 in both Killer and Survivor
-          (which is about as useful as it sounds). I even played for my school&apos;s eSports team for a year.
+          (which is about as useful as it sounds). Some other games that I enjoy are Fallout 4, Minecraft, Stardew Valley, and Rainbow Six Siege.
         </p>
         <p className="leading-relaxed">
           I also love hiking and exploring new places. I&apos;ve summited 지리산 (Jirisan), mainland South
-          Korea&apos;s tallest mountain, and solo traveled to Thailand for a week. I&apos;m also a huge foodie —
-          I&apos;ve eaten at every restaurant in Boston&apos;s Chinatown and am always hunting for something new.
-          You can find my takes on my{" "}
+          Korea&apos;s tallest mountain, and solo traveled to Thailand. I&apos;ve even eaten at every restaurant 
+          in Boston&apos;s Chinatown and am always hunting for something new. You can find my takes on my{" "}
           <a href="https://beliapp.co/app/julianwsanchez" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">
             Beli
           </a>{" "}
@@ -127,8 +122,9 @@ export default function Home() {
       <section className="border-t border-[#e9e9e7] pt-6 text-sm text-gray-400">
         <p>
           I&apos;m always happy to connect — whether it&apos;s for career advice, finding the best food spots,
-          or anything in between. Feel free to{" "}
-          <a href="mailto:julianwsan@pm.me" className="underline hover:opacity-60">reach out</a>.
+          or anything in between. Feel free to reach out! You're also welcome to look at my{" "}
+          <a href="/JulianSanchezResumeWebsite.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">resume</a>
+          {""}, if you like that kind of stuff.
         </p>
       </section>
 
