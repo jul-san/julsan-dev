@@ -123,7 +123,7 @@ export default function Home() {
         <p>
           I&apos;m always happy to connect — whether it&apos;s for career advice, finding the best food spots,
           or anything in between. Feel free to reach out! You're also welcome to look at my{" "}
-          <a href="/JulianSanchezResumeWebsite.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">resume</a>
+          <a href="/JulianSanchezResume.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-60">resume</a>
           {""}, if you like that kind of stuff.
         </p>
       </section>
