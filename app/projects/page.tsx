@@ -5,25 +5,25 @@ const PROJECTS = [
     name: "Rusteric",
     description: "A linear algebra library built in Rust.",
     banner: "/image/projects/rusteric-banner.png",
-    github: "#",
+    github: "https://github.com/jul-san/rusteric",
   },
   {
     name: "Expense Insight",
     description: "Upload Truist bank statements to track spending and account balance over time.",
     banner: "/image/projects/expense-insight-banner.png",
-    github: "#",
+    github: "https://github.com/jul-san/expense-insight",
   },
   {
     name: "Chess CLI",
     description: "A fully playable chess game in the terminal.",
     banner: "/image/projects/chesscli-banner.png",
-    github: "#",
+    github: "https://github.com/jul-san/chess-cli",
   },
   {
     name: "Starlink Observer",
     description: "Track and visualize Starlink satellites on a 3D globe.",
     banner: "/image/projects/starlink-observer-banner.png",
-    github: "#",
+    github: "https://github.com/jul-san/starlink-observer",
   },
 ];
 
